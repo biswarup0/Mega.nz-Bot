@@ -9,9 +9,9 @@ else:
     log_channel = None
 
 class Config(object):
-    APP_ID = int(os.environ.get("APP_ID", 1234567))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    APP_ID = int(os.environ.get("APP_ID", 13554562))
+    API_HASH = os.environ.get("API_HASH", "f018746a92d8e774664bebfb6f28abe5")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5034854533:AAGmanPp5Xh1Dj46xnBwIdQiVVhzPNIl3RM")
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
     DOWNLOAD_LOCATION = "./NexaBots"
     IS_PUBLIC_BOT = bool(os.environ.get("IS_PUBLIC_BOT", False))
